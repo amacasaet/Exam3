@@ -1,0 +1,11 @@
+// Implement abstract class Person with a pure virtual function Move
+
+class Person {
+
+public:
+	virtual double move() = 0;
+
+private:
+	double steps;
+	double totalsteps;
+};
